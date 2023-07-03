@@ -7,11 +7,11 @@
       </div>
     </div>
     <div>
-      <img class="map" src="@/assets/imgs/local (2).png"/>
+      <img class="map" src="../assets/imgs/local_2.png"/>
     </div>
   </div>
   <div class="bao-nhan-hieu">
-    <img class="nhan-hieu" src="@/assets/imgs/sponsored.png"/>
+    <img class="nhan-hieu" src="../assets/imgs/sponsored.png"/>
   </div>
 </template>
 <style scoped lang="scss">
