@@ -114,7 +114,7 @@
     display: flex;
     flex-direction: column;
     padding: 40px 19px;
-    gap:51px;
+    gap:50px;
     .title{
       order: 1;
       display: flex;
