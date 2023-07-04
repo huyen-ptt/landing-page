@@ -1,5 +1,5 @@
 <template>
-  <div :class="getClass()">
+  <div :class="getClass()" style="display: none;">
       <span>
         <i @click="closeMenu" class="fa-solid fa-xmark"></i>
       </span>
@@ -67,9 +67,6 @@ export default {
   padding-bottom: 130px;
   max-width: 1200px;
   margin: 0 auto;
-  .mobile-link{
-    display: none;
-  }
   .header-left{
     display: flex;
     gap:3px;
@@ -127,6 +124,9 @@ export default {
       }
     }
   }
+}
+.mobile-link {
+  display: none;
 }
 @media (max-width: 450px) {
   .mobile-link {
