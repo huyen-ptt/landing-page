@@ -1,5 +1,5 @@
 <template>
-  <div class="plane">
+  <div class="plane" id="pricing">
     <div class="title-plane">
       <div class="title-plane-big">Choose your plan</div>
       <div class="title-plane-small">Lorem ipsum dolor sit amet consectetur. Quis tortor gravida nibh arcu id
@@ -188,7 +188,9 @@
         border: 0;
         &:hover{
           cursor: pointer;
-          background: #b94343;
+          color: #2B2B2B;
+          background: #FCAEAE;
+          transition: 1s;
         }
       }
     }

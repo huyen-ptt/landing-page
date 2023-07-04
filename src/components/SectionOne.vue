@@ -66,7 +66,9 @@
       border: 0;
       &:hover{
         cursor: pointer;
-        background: #b94343;
+        color: #2B2B2B;
+        background: #FCAEAE;
+        transition: 1s;
       }
     }
   }
@@ -103,7 +105,7 @@
   .feature{
     display: flex;
     flex-direction: column;
-    padding: 0 19px;
+    padding: 100px 19px;
     .wrapper-feature{
       order: 3;
       margin-bottom: 30px;

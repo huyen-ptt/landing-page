@@ -1,5 +1,5 @@
 <template>
-  <div class="register">
+  <div class="register" id="help">
     <div class="title-register">
       <div class="title-register-big">Subscribe now for<br>
         get special features!</div>
@@ -13,6 +13,7 @@
   //position: absolute;
   //bottom: 337px;
   //left: 146px;
+  transform: translate(0%, 8%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,7 +48,9 @@
     border: 0;
     &:hover{
       cursor: pointer;
-      background: #b94343;
+      color: #2B2B2B;
+      background: #FCAEAE;
+      transition: 1s;
     }
   }
 }

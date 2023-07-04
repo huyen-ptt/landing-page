@@ -52,7 +52,7 @@
   justify-content: center;
   background: #F4F4F4;
   gap:155px;
-  padding: 40px 0 60px 0;
+  padding: 60px 0;
   margin: 0 auto;
   .logo{
     display: flex;
@@ -77,6 +77,7 @@
     align-items: center;
     gap:26px;
     .item-contact{
+      cursor: pointer;
       border-radius: 999px;
       background: var(--red-2, rgba(245, 56, 56, 0.10));
       width: 37px;

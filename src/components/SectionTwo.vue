@@ -1,5 +1,5 @@
 <template>
-  <div class="setion-two">
+  <div class="setion-two" id="features">
     <img class="logo-section-two" src="@/assets/imgs/img-section-2.png"/>
     <div>
       <div class="many-features">We provide many features you can use</div>
