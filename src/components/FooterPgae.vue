@@ -128,25 +128,5 @@
     }
   }
 }
-@media (max-width: 900px) {
-  .footer{
-    display: flex;
-    flex-direction: column;
-    padding: 40px 30px;
-    gap:50px;
-    .bao-wrapper{
-      gap:80px;
-    }
-    .title{
-      order: 1;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      .title-footer-small{
-        text-align: center;
-      }
-    }
-  }
-}
+
 </style>

@@ -76,32 +76,5 @@
     }
   }
 }
-@media (max-width: 900px) {
-  .local{
-    padding: 0 19px;
-    margin-top: 50px;
-    .title-local{
-      margin-bottom: 25px;
-      .title-local-big{
-        font-size: 18px;
-        padding-bottom: 11px;
-      }
-      .title-local-small{
-        font-size: 11px;
-        padding-bottom: 25px;
-      }
-    }
-    .map{
-      width: 100%;
-      margin-bottom: 38px;
-    }
-  }
-  .bao-nhan-hieu{
-    .nhan-hieu{
-      width: 100%;
-      padding: 0 19px;
 
-    }
-  }
-}
 </style>

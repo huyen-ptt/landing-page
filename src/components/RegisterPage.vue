@@ -65,14 +65,5 @@
     }
   }
 }
-@media (max-width: 900px) {
-  .register{
-    margin: 50px 19px;
-    .title-register{
-      .title-register-small{
-        padding-bottom: 64px;
-      }
-    }
-  }
-}
+
 </style>

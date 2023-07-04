@@ -232,40 +232,5 @@
     }
   }
 }
-@media (max-width: 900px) {
-  .plane{
-    padding: 0 19px;
-    .title-plane{
-      .title-plane-big{
-        font-size: 19px;
-        padding-bottom: 10px;
-      }
-      .title-plane-small{
-        font-size: 10px;
-        padding-bottom: 18px;
-      }
-    }
-    .wrapper-chose{
-      gap:10px;
-      overflow:hidden ;
-      .item-chose{
-        padding: 15px 30px;
-        .btn-select{
-          font-size: 13px;
-        }
-        .bao-item-chose{
-          .item-featuress{
-            padding-bottom: 30px;
-          }
-          .price{
-            font-size: 16px;
-            span{
-              font-size: 10px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
+
 </style>

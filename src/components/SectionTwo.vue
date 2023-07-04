@@ -85,30 +85,5 @@
     }
   }
 }
-@media (max-width: 900px) {
-  .setion-two{
-    display: block;
-    padding: 30px 19px;
-    .logo-section-two{
-      width: 100%;
-      padding-bottom: 28px;
-    }
-    .many-features{
-      font-size: 20px;
-      padding-bottom: 10px;
-    }
-    .title-small{
-      font-size: 10px;
-    }
-    .wrapper-featuress{
-      .item-featuress{
-        padding: 0 19px 15px 19px;
-        div{
-          font-size: 11px;
-        }
 
-      }
-    }
-  }
-}
 </style>
