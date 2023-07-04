@@ -1,5 +1,5 @@
 <template>
-  <div :class="getClass()" style="display: none;">
+  <div :class="getClass()">
       <span>
         <i @click="closeMenu" class="fa-solid fa-xmark"></i>
       </span>
