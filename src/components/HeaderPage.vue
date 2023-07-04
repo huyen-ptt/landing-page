@@ -4,8 +4,8 @@
         <i @click="closeMenu" class="fa-solid fa-xmark"></i>
       </span>
     <ul>
-      <li v-for="m in menu " :key="m.url">
-        <a :href="m.url" @click="toggleMenu">{{m.name}}</a>
+      <li v-for="index in menu " :key="index.url">
+        <a :href="index.url" @click="toggleMenu">{{index.name}}</a>
       </li>
     </ul>
   </div>
@@ -128,7 +128,79 @@ export default {
 .mobile-link {
   display: none;
 }
-@media (max-width: 450px) {
+@media (max-width: 600px) {
+  .mobile-link {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    transition: all .3s ease-in-out;
+    width: 100%;
+    z-index: 300;
+    .fa-solid{
+      font-size: 24px;
+    }
+    span{
+      cursor: pointer;
+      font-size: 3.3rem;
+      position: absolute;
+      right: 4rem;
+      top: 2rem;
+    }
+    ul{
+      display: flex;
+      flex-direction: column;
+      font-size: 2rem;
+      gap: 4rem;
+      list-style: none;
+      a{
+        color: #000;
+        font-weight: 500;
+        text-decoration: none;
+      }
+    }
+  }
+  .open-menu {
+    left: 0;
+  }
+  .close-menu {
+    left: -100%;
+  }
+  .header {
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    display: flex;
+    font-size: 1.7rem;
+    height: auto;
+    justify-content: space-between;
+    left: 0;
+    padding: 25px 40px 25px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+
+    .wrapper-menu {
+      display: none;
+    }
+
+    .btn-sign-in {
+      display: none;
+    }
+
+    .fa-bars {
+      display: block;
+      font-size: 24px;
+    }
+  }
+}
+@media (max-width: 900px) {
   .mobile-link {
     align-items: center;
     background-color: #fff;
@@ -185,7 +257,14 @@ export default {
     top: 0;
     width: 100%;
     z-index: 3;
-
+    .header-left{
+      gap:16px;
+      font-size: 26px;
+      img{
+        width: 46px;
+        height: 46px;
+      }
+    }
     .wrapper-menu {
       display: none;
     }
@@ -196,7 +275,7 @@ export default {
 
     .fa-bars {
       display: block;
-      font-size: 24px;
+      font-size: 30px;
     }
   }
 }

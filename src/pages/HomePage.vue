@@ -39,7 +39,7 @@ export default {
   margin: 0 auto;
   position: relative;
 }
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .container{
   }
 }

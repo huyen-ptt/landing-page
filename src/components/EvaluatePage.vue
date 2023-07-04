@@ -171,7 +171,54 @@ export default {
     }
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 600px) {
+  .evaluate{
+    padding:40px 19px;
+    .toolbar{
+      .frame{
+        width: 70px;
+      }
+      .arrow{
+        img{
+          width: 30px;
+        }
+      }
+    }
+    .title-evaluate{
+      .title-evaluate-big{
+        font-size: 17px;
+      }
+      .title-evaluate-small{
+        font-size: 9px;
+        padding-bottom: 38px;
+      }
+    }
+    .wrapper-evaluate{
+      overflow: hidden;
+      .item-evaluate{
+        padding: 20px;
+        .content-cmt{
+          font-size: 11px;
+        }
+        .person-evaluate{
+          gap:20px;
+          .avt{
+            width: 40px;
+            height: 40px;
+          }
+          .name-person{
+            font-size: 11px;
+          }
+          .local-person{
+            font-size: 9px;
+          }
+        }
+      }
+
+    }
+  }
+}
+@media (max-width: 900px) {
   .evaluate{
     padding:40px 19px;
     .toolbar{

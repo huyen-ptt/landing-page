@@ -7,15 +7,12 @@
       </div>
       <div class="title-footer-small">Lorem ipsum dolor sit amet consectetur. Quis<br> tortor gravida nibh arcu id purus ullamcorper.<br> Vel vel erat semper augue.</div>
       <div class="wrapper-contact">
-        <div class="item-contact">
+        <a href="https://www.facebook.com/princessdangyeuu" class="item-contact">
           <i class="fa-brands fa-facebook"></i>
-        </div>
-        <div class="item-contact">
+        </a>
+        <a href="tel:0981156216" class="item-contact">
           <i class="fa-solid fa-phone"></i>
-        </div>
-        <div class="item-contact">
-          <i class="fa-brands fa-youtube"></i>
-        </div>
+        </a>
       </div>
     </div>
     <div class="bao-wrapper">
@@ -110,12 +107,36 @@
     }
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .footer{
     display: flex;
     flex-direction: column;
-    padding: 40px 19px;
+    padding: 40px 30px;
     gap:50px;
+    .bao-wrapper{
+      gap:40px;
+    }
+    .title{
+      order: 1;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      .title-footer-small{
+        text-align: center;
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    gap:50px;
+    .bao-wrapper{
+      gap:80px;
+    }
     .title{
       order: 1;
       display: flex;

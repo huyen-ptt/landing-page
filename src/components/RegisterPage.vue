@@ -54,10 +54,20 @@
     }
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .register{
     margin: 50px 19px;
     display: block;
+    .title-register{
+      .title-register-small{
+        padding-bottom: 64px;
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .register{
+    margin: 50px 19px;
     .title-register{
       .title-register-small{
         padding-bottom: 64px;
